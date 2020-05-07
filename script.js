@@ -10,4 +10,7 @@
 
  canvas = document.getElementById("gameCanvas");
  context = canvas.getContext("2d");
+ // Setting up Interval ( Game Loop )
+
+ setInterval(update, 1000 / FPS);
 

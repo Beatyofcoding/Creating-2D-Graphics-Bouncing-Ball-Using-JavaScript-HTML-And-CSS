@@ -6,4 +6,8 @@
  const xv, yx;
  const canvas, context;
 
- 
+ // Loading Canvas
+
+ canvas = document.getElementById("gameCanvas");
+ context = canvas.getContext("2d");
+

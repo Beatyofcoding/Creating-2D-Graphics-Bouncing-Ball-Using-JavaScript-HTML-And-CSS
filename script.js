@@ -14,3 +14,8 @@
 
  setInterval(update, 1000 / FPS);
 
+ // Setting Ball Starting Postion
+
+ bx = canvas.width / 2;
+ by = canvas.height / 2;
+

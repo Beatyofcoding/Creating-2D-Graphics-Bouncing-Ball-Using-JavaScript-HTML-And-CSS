@@ -27,5 +27,6 @@
  // Setting Update Function
  function update() {
      // Moving the ball
-     
+     bx += xv;
+     by += yv;
  }

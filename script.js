@@ -23,3 +23,9 @@
 
  xv = Math.floor(Math.random() * 101 + 100) / FPS;
  yv = Math.floor(Math.random() * 101 + 100) / FPS;
+
+ // Setting Update Function
+ function update() {
+     // Moving the ball
+     
+ }

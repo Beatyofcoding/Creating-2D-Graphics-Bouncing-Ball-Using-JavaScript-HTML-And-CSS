@@ -19,10 +19,10 @@
  bx = canvas.width / 2;
  by = canvas.height / 2;
 
- // Setting Rando Ball starting Speed ( Between 100 and 200 Pexel per second *PPS*)
+ // Setting Rando Ball starting Speed ( Between 25 and 100 Pexel per second *PPS*)
 
- xv = Math.floor(Math.random() * 101 + 100) / FPS;
- yv = Math.floor(Math.random() * 101 + 100) / FPS;
+ xv = Math.floor(Math.random() * 76 + 25) / FPS;
+ yv = Math.floor(Math.random() * 76 + 25) / FPS;
 
  // Setting Update Function
  function update(){

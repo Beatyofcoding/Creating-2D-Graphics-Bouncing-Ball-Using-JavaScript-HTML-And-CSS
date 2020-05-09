@@ -32,7 +32,7 @@
      // Drawing Background and ball
      
      context.fillStyle = "black";
-     context.fillRect(0, 0, canvas.width, canva.height);
+     context.fillRect(0, 0, canvas.width, canvas.height);
      context.fillStyle = "yellow";
      context.fillRect(bx - bx / 2, by - bs / 2, bs, bs);
     }

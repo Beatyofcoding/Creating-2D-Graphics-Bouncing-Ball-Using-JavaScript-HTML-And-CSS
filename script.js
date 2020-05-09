@@ -1,10 +1,10 @@
  // Declaring Variables
  
  const FPS = 30;
- const bs = 30;
- const bx, by;
- const xv, yx;
- const canvas, context;
+ let bs = 30;
+ let bx, by;
+ let xv, yx;
+ let canvas, context;
 
  // Loading Canvas
 
@@ -25,7 +25,7 @@
  yv = Math.floor(Math.random() * 101 + 100) / FPS;
 
  // Setting Update Function
- function update() {
+ function update(){
      // Moving the ball
      bx += xv;
      by += yv;

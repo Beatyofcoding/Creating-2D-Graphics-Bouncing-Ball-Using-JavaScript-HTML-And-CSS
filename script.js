@@ -29,10 +29,10 @@
      // Moving the ball
      bx += xv;
      by += yv;
- }
- // Drawing Background and ball
-
- context.fillStyle = "black";
- context.fillRect(0, 0, canvas.width, canva.height);
- context.fillStyle = "yellow";
- context.fillRect(bx - bx / 2, by - bs / 2, bs, bs);
+     // Drawing Background and ball
+     
+     context.fillStyle = "black";
+     context.fillRect(0, 0, canvas.width, canva.height);
+     context.fillStyle = "yellow";
+     context.fillRect(bx - bx / 2, by - bs / 2, bs, bs);
+    }

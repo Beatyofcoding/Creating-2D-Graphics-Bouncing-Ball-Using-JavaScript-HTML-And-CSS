@@ -30,3 +30,7 @@
      bx += xv;
      by += yv;
  }
+ // Drawing Background and ball
+
+ context.fillStyle = "black";
+ context.fillRect(0, 0, canvas.width, canva.height);

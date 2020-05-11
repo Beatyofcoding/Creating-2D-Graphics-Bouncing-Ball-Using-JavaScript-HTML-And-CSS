@@ -46,10 +46,11 @@
      if(bx + bs / 2 > canvas.width && xv > 0){
         xv = -xv;
     }
-    if(by - bs / 2 < 0 && yv <0){
+
+    if(by - bs / 2 < 0 && yv <0){ //Y Direction
         yv = -yv;
     }
-    if(by + bs / 2 > canvas.width && yv > 0){
+    if(by + bs / 2 > canvas.height && yv > 0){
        yv = -yv;
    }     
      // Drawing Background and ball

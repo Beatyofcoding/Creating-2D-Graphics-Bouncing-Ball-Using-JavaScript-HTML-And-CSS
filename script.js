@@ -37,6 +37,15 @@
      // Moving the ball
      bx += xv;
      by += yv;
+
+     // Bouncing the ball off each wall
+
+     if(bx - bs / 2 < 0 && xv <0){
+         xv = -xv;
+     }
+     if(bx + bs / 2 > canvas.width && xv > 0){
+        xv = -xv;
+    }     
      // Drawing Background and ball
      
      context.fillStyle = "black";

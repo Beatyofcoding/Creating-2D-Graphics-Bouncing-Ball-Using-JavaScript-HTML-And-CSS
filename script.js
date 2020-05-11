@@ -40,7 +40,7 @@
 
      // Bouncing the ball off each wall
 
-     if(bx - bs / 2 < 0 && xv <0){
+     if(bx - bs / 2 < 0 && xv <0){//X Direction
          xv = -xv;
      }
      if(bx + bs / 2 > canvas.width && xv > 0){

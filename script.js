@@ -21,8 +21,8 @@
 
  // Setting Random Ball starting Speed ( Between 25 and 100 Pexel per second *PPS*)
 
- xv = Math.floor(Math.random() * 76 + 25) / FPS;
- yv = Math.floor(Math.random() * 76 + 25) / FPS;
+ xv = Math.floor(Math.random() * 100 + 25) / FPS;
+ yv = Math.floor(Math.random() * 100 + 25) / FPS;
 
  // Setting Random Ball Direction
 
@@ -40,17 +40,17 @@
 
      // Bouncing the ball off each wall
 
-     if(bx - bs / 2 < 0 && xv <0){//X Direction
+     if(bx - bs / 2 < 0 && xv < 0){//X Direction
          xv = -xv;
      }
-     if(bx + bs / 2 > canvas.width && xv > 0){
+     if(bx + bs / 2 > canvas.width && xv > 0){//Problem here
         xv = -xv;
     }
 
     if(by - bs / 2 < 0 && yv <0){ //Y Direction
         yv = -yv;
     }
-    if(by + bs / 2 > canvas.height && yv > 0){
+    if(by + bs / 2 > canvas.height && yv >0){
        yv = -yv;
    }     
      // Drawing Background and ball

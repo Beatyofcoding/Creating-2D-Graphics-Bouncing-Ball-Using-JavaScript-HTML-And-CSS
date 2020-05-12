@@ -43,7 +43,7 @@
      if(bx - bs / 2 < 0 && xv < 0){//X Direction
          xv = -xv;
      }
-     if(bx + bs / 2 > canvas.width && xv > 0){//Problem here
+     if(bx + bs / 2 > canvas.width && xv >0){//Problem here
         xv = -xv;
     }
 
@@ -58,5 +58,5 @@
      context.fillStyle = "black";
      context.fillRect(0, 0, canvas.width, canvas.height);
      context.fillStyle = "yellow";
-     context.fillRect(bx - bx / 2, by - bs / 2, bs, bs);
+     context.fillRect(bx - bs / 2, by - bs / 2, bs, bs);// bug found here and fixed
     }

@@ -56,9 +56,9 @@
    }     
      // Drawing Background and ball //
      
-     context.fillStyle = "orange";
-     context.fillRect(0, 0, canvas.width, canvas.height);
      context.fillStyle = "black";
+     context.fillRect(0, 0, canvas.width, canvas.height);
+     context.fillStyle = "orange";
      context.fillRect(bx - bs / 2, by - bs / 2, bs, bs);// bug found here and fixed
     }
    

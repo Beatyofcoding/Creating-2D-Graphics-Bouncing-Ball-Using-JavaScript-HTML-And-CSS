@@ -5,6 +5,7 @@
  let bx, by;
  let xv, yx;
  let canvas, context;
+//  let photo = document.getElementById
 
  // Loading Canvas
 
@@ -53,10 +54,11 @@
     if(by + bs / 2 > canvas.height && yv >0){
        yv = -yv;
    }     
-     // Drawing Background and ball
+     // Drawing Background and ball //
      
-     context.fillStyle = "black";
+     context.fillStyle = "orange";
      context.fillRect(0, 0, canvas.width, canvas.height);
-     context.fillStyle = "yellow";
+     context.fillStyle = "black";
      context.fillRect(bx - bs / 2, by - bs / 2, bs, bs);// bug found here and fixed
     }
+   

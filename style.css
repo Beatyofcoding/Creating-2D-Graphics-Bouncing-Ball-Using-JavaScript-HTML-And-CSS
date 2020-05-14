@@ -13,13 +13,21 @@ body {
     left: 0px;
     bottom: 0px; */
     /* box-shadow: 0px 10px 10px rgba(0 ,0 ,0 ,0.2),0px 4px 40px rgba(0 ,0 ,0 ,0.2); */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     animation: fade 1s ease;
     /* background: linear-gardient(to left, rgb(112,101,214), rgb(230,106,213)); */
     /* background: gray; */
+    
 }
-#{
-    background: seagreen;
+
+#Made{
+    position:absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+        box-shadow: 0px 10px 10px rgba(0 ,0 ,0 ,0.2),0px 4px 40px rgba(0 ,0 ,0 ,0.2);
+
+    /* background: rgba(0, 0, 0, alpha 0.5) */
 }
 /* .game{
     background-color: firebrick;

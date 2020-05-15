@@ -1,27 +1,33 @@
 /* /active Project with some styling  */
 
 body {
-    background-color: firebrick;
-    background-image: url(https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+    background-color: rgb(56, 55, 55);
+    background-image: url(/img/bkgrnd.jpg);
+    /* background-image: url(https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80); */
     /* background-image: url(https://images.unsplash.com/photo-1486363336834-fa7cc126905a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); */
     /* background-image: url(https://images.unsplash.com/photo-1485801468070-3c1af624702e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); */
     /* background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80); */
     text-align: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1700px 800px;
 }
+p::-moz-selection { color: red}
+
 #Signature{
-    /* position:absolute;
+    position:absolute;
     right: 0px;
     left: 0px;
-    bottom: 0px; */
+    bottom: 0px;
     /* box-shadow: 0px 10px 10px rgba(0 ,0 ,0 ,0.2),0px 4px 40px rgba(0 ,0 ,0 ,0.2); */
-    font-size: 1.3rem;
+    font-size: 1rem;
     animation: fade 1s ease;
     /* background: linear-gardient(to left, rgb(112,101,214), rgb(230,106,213)); */
-    /* background: gray; */
+    /* background:; */
+    color: white;
+    
     
 }
+#Made::selection { color: red; }
 
 #Made{
     position:absolute;
@@ -29,6 +35,7 @@ body {
     left: 0px;
     bottom: 0px;
         box-shadow: 0px 10px 10px rgba(0 ,0 ,0 ,0.2),0px 4px 40px rgba(0 ,0 ,0 ,0.2);
+        color: white;
 
     /* background: rgba(0, 0, 0, alpha 0.5) */
 }
